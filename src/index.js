@@ -1,17 +1,24 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./index.css";
+// import WebFlixApp from "./webflix/WebFlixApp";
+import CounterApp from "./counterapp/CounterApp";
+
+// import App from "./App";
+
+//JSX
+// const title = <h1>Hola React!</h1>;
+
+//No JSX
+// const titulo = React.createElement("h1", {}, "Hola React sin JSX");
+
+//que, donde
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  //   <App name="Adolfo Rodriguez" edad={40} />
+  //   <WebFlixApp />,
+  <CounterApp valor={10} />,
+  document.getElementById("root")
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

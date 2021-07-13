@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+//como se crea un componente
+import React from "react";
 
-function App() {
+const App = ({ name, edad }) => {
+  //Crear codigo javascript
+  //funciones
+  //variables
+  console.log(edad);
+  console.log(name);
+
+  // const nombre = "Federico Martinez";
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Soy {name} </h1>
+      <hr />
+      <p>Este es mi primer componente de React</p>
+      <p>Mi edad es de: {edad}</p>
     </div>
   );
-}
+};
 
 export default App;
