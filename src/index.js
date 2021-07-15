@@ -4,7 +4,8 @@ import ReactDOM from "react-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
 // import WebFlixApp from "./webflix/WebFlixApp";
-import CounterApp from "./counterapp/CounterApp";
+// import CounterApp from "./counterapp/CounterApp";
+import Asincronismo from "./asincronismo/Asincronismo";
 
 // import App from "./App";
 
@@ -19,6 +20,7 @@ import CounterApp from "./counterapp/CounterApp";
 ReactDOM.render(
   //   <App name="Adolfo Rodriguez" edad={40} />
   //   <WebFlixApp />,
-  <CounterApp valor={10} />,
+  // <CounterApp valor={20} />,
+  <Asincronismo />,
   document.getElementById("root")
 );
