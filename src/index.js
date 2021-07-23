@@ -5,7 +5,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
 // import WebFlixApp from "./webflix/WebFlixApp";
 // import CounterApp from "./counterapp/CounterApp";
-import Asincronismo from "./asincronismo/Asincronismo";
+// import Asincronismo from "./asincronismo/Asincronismo";
+// import HelloWorld from "./helloWorld/HelloWorld";
+// import RouteApp from "./routeo/routes/RouteApp";
+import TareasApp from "./tareas/TareasApp";
 
 // import App from "./App";
 
@@ -21,6 +24,9 @@ ReactDOM.render(
   //   <App name="Adolfo Rodriguez" edad={40} />
   //   <WebFlixApp />,
   // <CounterApp valor={20} />,
-  <Asincronismo />,
+  // <Asincronismo />,
+  // <HelloWorld mensaje="My friend" />,
+  // <RouteApp />,
+  <TareasApp />,
   document.getElementById("root")
 );
